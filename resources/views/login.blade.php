@@ -4,7 +4,7 @@
     @error('error')
         <span>{{$message}}</span>
     @enderror
-    <h2>Login</h2>
+    <h2>HOME | Login</h2>
     <form action="{{route('login.store')}}" method="post">
         @csrf
         <input type="text" name="email" value="usuariotest@gmail.com">
