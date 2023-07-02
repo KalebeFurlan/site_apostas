@@ -10,4 +10,4 @@
         @yield('content');
     </body>
 </html>
-!
+
