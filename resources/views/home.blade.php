@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <div style="display: flex;" class="mb-2">
-        <h3>BloodyCoin <h3>
+        <h3>BloodyCoin<h3>
         <h3>HOME</h3>
     </div>
     <a href="{{route('login.index')}}">Login</a>
