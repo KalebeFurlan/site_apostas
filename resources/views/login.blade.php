@@ -1,6 +1,9 @@
 @extends('master')
 @section('content')
-    <a href="{{route('home.index')}}">Home</a>
+<div style="display: flex; background-color:red; margin: 0%;" class="mb-2">
+        <h3 class="textin">BloodyCoin | H<h3>
+        <a href="{{route('home.index')}}">ome</a>
+    </div>
     @error('error')
         <span>{{$message}}</span>
     @enderror
@@ -22,6 +25,9 @@
     </div>
 @endsection
 <style>
+    .textin{
+        text-decoration-color: white;
+    }
     .container {
     width: 100vw;
     height: 100vh;
