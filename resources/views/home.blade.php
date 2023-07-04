@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <div style="display: flex; background-color:red;" class="mb-2">
         <h3>BloodyCoin | Home<h3>
+        <a href="{{route('login.index')}}">Login</a>
     </div>
-    <a href="{{route('login.index')}}">Login</a>
     <link rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet" type="text/css">
     <title>HOME</title>
