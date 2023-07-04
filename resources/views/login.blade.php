@@ -6,7 +6,6 @@
     @enderror
     <div class="container">
         <div class="box">
-            <h3>Login</h3>
             <form action="{{route('login.store')}}" method="post">
                 @csrf
                 <input type="text" name="email" value="usuariotest@gmail.com.br">
