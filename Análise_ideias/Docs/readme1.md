@@ -10,12 +10,12 @@ erDiagram
         int  ContaId
     }
     Usuario ||..||Jogo : jogar
-    mahjong {
+    Pocker {
        int pares
     }
-    Jogo }|..|{mahjong: muitas
+    Jogo }|..|{Pocker: muitas
     Jogo {
-        string mahjong
+        string Pocker
 
     }
     
