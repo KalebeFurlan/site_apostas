@@ -23,7 +23,12 @@
         font-family: 'Noto Sans';
         src: url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
     }
-
+    body{
+        padding: 0;
+        margin: 0;
+        background-image: url("https://rare-gallery.com/uploads/posts/534366-poker.jpg");
+        background-size: 100%;
+    }
     
 
 </style>
