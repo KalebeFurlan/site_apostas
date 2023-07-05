@@ -14,12 +14,21 @@
     <title>HOME</title>
 </head>
 <body>
-<h3>Sejam Bem-vindos ao BloodyCoins</h3>
+<h3 class="textin"> Sejam Bem-vindos ao BloodyCoins</h3>
 </body>
 </html>
 @endsection
 <style>
+    body{
+        background-image: url(https://vistapointe.net/images/poker-5.jpg);
+        background-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
     .textin{
         color: white;
+        margin-right: 5px;
+        margin-left: 5px;
     }
 </style>
