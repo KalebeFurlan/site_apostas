@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <div style="display: flex; background-color:red; margin: 0%;" class="mb-2">
         <h3 class="textin">BloodyCoin | <h3>
-        <a href="{{route('login.index')}}">Login</a>
+        <a href="{{route('dashboard')}}">Login</a>
     </div>
     <link rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet" type="text/css">
@@ -20,6 +20,6 @@
 @endsection
 <style>
     .textin{
-        text-decoration-color: white;
+        color: white;
     }
 </style>
