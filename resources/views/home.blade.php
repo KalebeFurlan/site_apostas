@@ -8,7 +8,7 @@
     <div class="board">
         <img src="C:\Users\Acer\Documents\site de aposta\site_apostas\pixil-frame-0.png">
         <h3 class="textin">BloodyCoin | <h3>
-        <a class="texti" href="{{route('dashboard')}}">Login</a>
+        <a class="texti" href="{{route('login')}}">Login</a>
     </div>
     <link rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet" type="text/css">

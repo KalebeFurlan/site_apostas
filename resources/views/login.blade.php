@@ -1,8 +1,9 @@
 @extends('master')
 @section('content')
-<div style="display: flex; background-color:red; margin: 0%;" class="mb-2">
+    <div class="board">
+        <img src="C:\Users\Acer\Documents\site de aposta\site_apostas\pixil-frame-0.png">
         <h3 class="textin">BloodyCoin | <h3>
-        <a href="{{route('home.index')}}">Home</a>
+        <a class="texti" href="{{route('home')}}">Home</a>
     </div>
     @error('error')
         <span>{{$message}}</span>
@@ -25,9 +26,6 @@
     </div>
 @endsection
 <style>
-    .textin{
-        text-decoration-color: white;
-    }
     .container {
     width: 100vw;
     height: 100vh;
@@ -40,6 +38,15 @@
     .box {
     width: 300px;
     height: 300px;
-    background: #fff;
+    background-image: url(https://vistapointe.net/images/poker-5.jpg);
+    }
+    .textin{
+        color: white;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .board{
+        display: flex;
+        background-color:red;
     }
 </style>
