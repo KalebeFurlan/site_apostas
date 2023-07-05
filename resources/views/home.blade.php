@@ -5,11 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <div class="board">
-        <img src="C:\Users\Acer\Documents\site de aposta\site_apostas\pixil-frame-0.png">
-        <h3 class="textin">BloodyCoin | <h3>
-        <a class="texti" href="{{route('login')}}">Login</a>
-    </div>
     <link rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet" type="text/css">
     <title>HOME</title>
@@ -32,8 +27,35 @@
         margin: 0;
         background-image: url("https://rare-gallery.com/uploads/posts/534366-poker.jpg");
         background-size: 100%;
+        background-repeat: no-repeat;
     }
-    
+.row{
+    display: flex;
+}
+.cardgreen{
+        margin: 200px;
+        padding: 80px;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Noto Sans';
+        src: url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRuL7M262yZCARUgKpkSpJIhF5pwRgkH6qCw&usqp=CAU");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        color: white;
+       }
+.cardblue{
+        margin: 200px;
+        padding: 80px;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Noto Sans';
+        src: url("https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2020/08/jogos-de-carta.jpg");
+        background-image: url("https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2020/08/jogos-de-carta.jpg");
+        background-size: auto;
+        background-repeat: no-repeat;
+        color: white;
+        }
 
 </style>
 </head>
@@ -44,10 +66,19 @@
         <td style="width:120px; text-align:center; color:yellow; font-size:40px"><strong>BC</strong></td>
         <td style="width:120px; color: white; text-align:center"><h3>BloodyCoin</h3></td>
         <td style="width:1100px; text-align:center; font-size:40px; color:white"><strong>Sejam Bem-vindos ao BloodyCoins</strong></td>
-        <td style="width:150px; text-align:center"><h3><a style="color:white; text-decoration:none" href="{{route('login.index')}}" id="Log">Login</a></h3></td>
+        <td style="width:150px; text-align:center"><h3><a style="color:white; text-decoration:none" href="{{route('login.index')}}"id="Log">Login</a></h3></td>
     </tr>
 </table>
-</div>   
+</div>
+    <div class="row">
+    <div class="cardgreen">
+        <h2>Aposta de cavalos</h2>
+      </div>
+ 
+      <div class="cardblue">
+        <h2>Jogo de cartas</h2>
+      </div> 
+    </div>  
 </body>
 </html>
 @endsection

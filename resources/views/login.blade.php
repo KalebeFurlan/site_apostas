@@ -9,10 +9,23 @@
     <link rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet" type="text/css">
 <style>
-    
+    input{
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    p{
+        color: blue;
+    }
+    button{
+        margin-top: 5px;
+    }
+    form{
+        margin: 50px;
+    }
     .container {
     height: 100vh;
-    background: #ffffff;
+    background-image: url("https://rare-gallery.com/uploads/posts/534366-poker.jpg");
+    background-size: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,9 +34,12 @@
     }
     .box {
     text-align: center;
-    width: 650px;
-    height: 650px;
+    width: 450px;
+    height: 450px;
     background: #d9d9d9;
+    font-family: 'Noto Sans';
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+
     }
     .New{
         display: flex; 
@@ -31,6 +47,10 @@
         margin-top: 0px;
         font-family: 'Noto Sans';
         src: url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+    }
+    body{
+        padding: 0;
+        margin: 0;
     }
 </style>
 
@@ -53,6 +73,7 @@
         <div class="box">
             <form action="{{route('login.store')}}" method="post">
                 @csrf
+                <h3>Login</h3>
                 <input type="text" name="email" value="usuariotest@gmail.com.br">
                     @error('email')
                         <span>{{ $message }}</span>
@@ -61,6 +82,7 @@
                     @error('password')
                         <span>{{ $message }}</span>
                     @enderror
+                    <p>Cadastre-se</p>
                 <button type="submit">Login</button>
             </form>
         </div>
