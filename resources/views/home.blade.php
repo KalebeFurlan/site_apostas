@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <div style="display: flex; background-color:red; margin: 0%;" class="mb-2">
+        <img src="C:\Users\Acer\Documents\site de aposta\site_apostas\pixil-frame-0.png">
         <h3 class="textin">BloodyCoin | <h3>
         <a href="{{route('dashboard')}}">Login</a>
     </div>
